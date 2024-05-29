@@ -6,7 +6,7 @@ public class Oranges extends Fruits {
     }
 
     public Oranges() {
-        super(1.5f); // согласно задания вес одного апельсина 1.5f
+        super(1.5f);
     }
 }
 
