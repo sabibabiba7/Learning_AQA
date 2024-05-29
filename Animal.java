@@ -1,12 +1,12 @@
 public class Animal implements Cloneable {
-    protected String type;       // вид животного (наименование класса эт. хорошо но оно видно только программе)
-    protected String name;       // имя или кличка животного (если есть)
-    protected int flying;        // возможность животного летать     (численная характеристика, метры непрерывного полета)
-    protected int swims;         // возможность животного плавать    (численная характеристика, метры непрерывного интенсивного плавания)
-    protected int goes;          // возможность животного ходить     (численная характеристика, метры непрерывного спокойного хождения)
-    protected int run;           // возможность животного бегать     (численная характеристика, метры непрерывного быстрого бега)
-    protected int crawling;      // возможность животного ползать    (численная характеристика, метры непрерывного перемещения ползком)
-    private static int count;    // счетчик количества созданных животных (в том числе клонированных) не стал тут разделять.
+    protected String type;       
+    protected String name;       
+    protected int flying;        
+    protected int swims;       
+    protected int goes;          
+    protected int run;           
+    protected int crawling;      
+    private static int count;    
 
 
     public Animal() {
