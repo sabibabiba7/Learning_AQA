@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afed3ae5-1925-4bc3-b9d7-118fbe63e917" name="Changes" comment="lesson3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FactorialProgramm/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorial/factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/CHANGELOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/auto-service-annotations-1.1.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/auto-service-annotations-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/byte-buddy-1.14.15-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/byte-buddy-1.14.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/checker-qual-3.42.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/checker-qual-3.42.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/commons-exec-1.4.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/commons-exec-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/error_prone_annotations-2.26.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/error_prone_annotations-2.26.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/failsafe-3.3.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/failsafe-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/failureaccess-1.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/failureaccess-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/guava-33.2.0-jre-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/guava-33.2.0-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/j2objc-annotations-3.0.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/j2objc-annotations-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/jsr305-3.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/jsr305-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-api-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-api-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-api-incubator-1.38.0-alpha-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-api-incubator-1.38.0-alpha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-context-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-context-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-exporter-logging-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-exporter-logging-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-common-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-common-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-extension-autoconfigure-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-logs-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-logs-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-metrics-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-metrics-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-trace-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-trace-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-semconv-1.25.0-alpha-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-semconv-1.25.0-alpha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-api-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-api-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-chrome-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-chrome-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-chromium-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-chromium-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v123-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v123-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v124-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v124-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v125-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v125-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v85-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v85-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-edge-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-edge-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-firefox-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-firefox-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-http-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-http-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-ie-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-ie-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-java-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-java-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-json-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-json-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-manager-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-manager-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-os-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-os-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-remote-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-remote-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-safari-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-safari-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-support-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-support-4.21.0.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="Lesson-3" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson_11-maven2.0" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sabibabiba7&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sabibabiba7/Learning_AQA.git&quot;,
+    &quot;accountId&quot;: &quot;a5d38dc7-97af-4b92-801a-c87e1b7341f2&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2fPynbchp0ZOSf92IS8YbRbfVO5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Employees.executor": "Run",
+    "Application.EmployeesArray.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FirstApp.executor": "Run",
+    "Application.Five.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Three.executor": "Run",
+    "Application.TryAgain.executor": "Run",
+    "Application.Two.executor": "Run",
+    "Application.lesson.executor": "Run",
+    "Application.lesson1.executor": "Run",
+    "Application.lesson2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Lesson-12",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/FOR AQA_1/MODULE_1/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/FOR AQA_1/MODULE_1/src/main/java/com/FOR_AQA_1/Main.java",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Figures" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Figures" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Factorial">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactorialProgramm.Factorial" />
+      <module name="LearningAQA_2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactorialProgramm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Five" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8.Five" />
+      <module name="FOR AQA_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Three" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8.Three" />
+      <module name="FOR AQA_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8.Two" />
+      <module name="FOR AQA_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.lesson2" />
+      <module name="MODULE_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="LearningAQA_2.0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="LearningAQA_2.0" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.Two" />
+        <item itemvalue="Application.Three" />
+        <item itemvalue="Application.lesson2" />
+        <item itemvalue="Application.Five" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afed3ae5-1925-4bc3-b9d7-118fbe63e917" name="Changes" comment="" />
+      <created>1713717175784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713717175784</updated>
+      <workItem from="1713717176917" duration="9094000" />
+      <workItem from="1713896698209" duration="5248000" />
+      <workItem from="1714027377102" duration="11534000" />
+      <workItem from="1714921292545" duration="6179000" />
+      <workItem from="1716973732536" duration="379000" />
+      <workItem from="1716992432968" duration="612000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1713718683714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713718683714</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1713764901777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713764901777</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1713793924088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713793924088</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson2">
+      <option name="closed" value="true" />
+      <created>1713897172408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713897172408</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lesson2">
+      <option name="closed" value="true" />
+      <created>1714037885979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714037885979</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lesson2">
+      <option name="closed" value="true" />
+      <created>1714037898063</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714037898063</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1714925769282</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714925769282</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1715086511474</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715086511474</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1715086747691</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715086747691</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1716993405463</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993405463</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1716993919775</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993919775</updated>
+    </task>
+    <task id="LOCAL-00012" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1716994608024</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716994608024</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1716994856262</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716994856262</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1716995117918</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716995117918</updated>
+    </task>
+    <task id="LOCAL-00015" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1716996492393</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716996492393</updated>
+    </task>
+    <task id="LOCAL-00016" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1716997251151</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716997251151</updated>
+    </task>
+    <task id="LOCAL-00017" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1717000199040</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717000199040</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1717001015597</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717001015597</updated>
+    </task>
+    <task id="LOCAL-00019" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1717001606396</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717001606396</updated>
+    </task>
+    <task id="LOCAL-00020" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1717002945369</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717002945369</updated>
+    </task>
+    <task id="LOCAL-00021" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1717004035177</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1717004035177</updated>
+    </task>
+    <task id="LOCAL-00022" summary="lesson3">
+      <option name="closed" value="true" />
+      <created>1717004096224</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1717004096224</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="lesson2" />
+    <MESSAGE value="lesson3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MODULE_1/src/main/java/com/FOR_AQA_1/MainApp.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
