@@ -1,0 +1,54 @@
+Index: MODULE_1/src/main/java/school/lesson1/MainApp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package school.lesson1;\r\n\r\npublic class MainApp {\r\n}\r\n
+===================================================================
+diff --git a/MODULE_1/src/main/java/school/lesson1/MainApp.java b/MODULE_1/src/main/java/school/lesson1/MainApp.java
+--- a/MODULE_1/src/main/java/school/lesson1/MainApp.java	
++++ b/MODULE_1/src/main/java/school/lesson1/MainApp.java	
+@@ -1,4 +1,43 @@
+-package school.lesson1;
++import org.junit.*;
++import org.openqa.selenium.*;
++import org.openqa.selenium.chrome.ChromeDriver;
++
++public class MtsTest {
++    private WebDriver driver;
++
++    @Before
++    public void setUp() {
++        System.setProperty("webdriver.chrome.driver", "путь_к_драйверу");
++        driver = new ChromeDriver();
++        driver.get("https://www.mts.by/");
++    }
++
++    @Test
++    public void testOnlineRecharge() {
++        // Проверить название указанного блока
++        WebElement title = driver.findElement(By.cssSelector("селектор_для_блока"));
++        Assert.assertEquals("Онлайн пополнение без комиссии", title.getText());
++
++        // Проверить наличие логотипов платёжных систем
++        WebElement paymentLogo = driver.findElement(By.cssSelector("селектор_для_логотипа"));
++        Assert.assertTrue(paymentLogo.isDisplayed());
+ 
+-public class MainApp {
++        // Проверить работу ссылки «Подробнее о сервисе»
++        WebElement link = driver.findElement(By.cssSelector("селектор_для_ссылки"));
++        link.click();
++        Assert.assertEquals("ожидаемый_URL", driver.getCurrentUrl());
++
++        // Заполнить поля и проверить работу кнопки «Продолжить»
++        driver.navigate().back();
++        WebElement field = driver.findElement(By.cssSelector("селектор_для_поля"));
++        field.sendKeys("297777777");
++        WebElement button = driver.findElement(By.cssSelector("селектор_для_кнопки"));
++        button.click();
++        // Проверить результат
++    }
++
++    @After
++    public void tearDown() {
++        driver.quit();
++    }
+ }
