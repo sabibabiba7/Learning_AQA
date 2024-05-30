@@ -5,8 +5,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afed3ae5-1925-4bc3-b9d7-118fbe63e917" name="Changes" comment="lesson3">
-      <change beforePath="$PROJECT_DIR$/MODULE_1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODULE_1/src/main/java/school/lesson1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/MODULE_1/src/main/java/school/lesson1/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FactorialProgramm/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorial/factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/CHANGELOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/auto-service-annotations-1.1.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/auto-service-annotations-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/byte-buddy-1.14.15-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/byte-buddy-1.14.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/checker-qual-3.42.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/checker-qual-3.42.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/commons-exec-1.4.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/commons-exec-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/error_prone_annotations-2.26.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/error_prone_annotations-2.26.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/failsafe-3.3.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/failsafe-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/failureaccess-1.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/failureaccess-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/guava-33.2.0-jre-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/guava-33.2.0-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/j2objc-annotations-3.0.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/j2objc-annotations-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/jsr305-3.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/jsr305-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-api-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-api-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-api-incubator-1.38.0-alpha-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-api-incubator-1.38.0-alpha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-context-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-context-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-exporter-logging-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-exporter-logging-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-common-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-common-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-extension-autoconfigure-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-logs-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-logs-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-metrics-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-metrics-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-trace-1.38.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-sdk-trace-1.38.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-semconv-1.25.0-alpha-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/opentelemetry-semconv-1.25.0-alpha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-api-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-api-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-chrome-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-chrome-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-chromium-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-chromium-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v123-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v123-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v124-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v124-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v125-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v125-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v85-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-devtools-v85-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-edge-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-edge-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-firefox-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-firefox-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-http-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-http-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-ie-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-ie-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-java-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-java-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-json-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-json-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-manager-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-manager-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-os-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-os-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-remote-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-remote-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-safari-driver-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-safari-driver-4.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-support-4.21.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.21.0/selenium-support-4.21.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +124,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_1" />
+        <entry key="$PROJECT_DIR$" value="Lesson_11-maven2.0" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,34 +155,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Employees.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeesArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Five.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Three.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryAgain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Two.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Lesson__11-maven&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/FOR AQA_1/MODULE_1/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/FOR AQA_1/MODULE_1/src/main/java/com/FOR_AQA_1/Main.java&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Employees.executor": "Run",
+    "Application.EmployeesArray.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FirstApp.executor": "Run",
+    "Application.Five.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Three.executor": "Run",
+    "Application.TryAgain.executor": "Run",
+    "Application.Two.executor": "Run",
+    "Application.lesson.executor": "Run",
+    "Application.lesson1.executor": "Run",
+    "Application.lesson2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Lesson-12",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/FOR AQA_1/MODULE_1/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/FOR AQA_1/MODULE_1/src/main/java/com/FOR_AQA_1/Main.java",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Figures" />
@@ -104,13 +197,13 @@
       <recent name="Figures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Five">
-    <configuration name="EmployeesArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.EmployeesArray" />
-      <module name="MODULE_1" />
+  <component name="RunManager" selected="Application.Factorial">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactorialProgramm.Factorial" />
+      <module name="LearningAQA_2.0" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="FactorialProgramm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,13 +263,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="LearningAQA_2.0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="LearningAQA_2.0" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Two" />
         <item itemvalue="Application.Three" />
         <item itemvalue="Application.lesson2" />
         <item itemvalue="Application.Five" />
-        <item itemvalue="Application.EmployeesArray" />
       </list>
     </recent_temporary>
   </component>
