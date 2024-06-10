@@ -13,15 +13,15 @@ public int getAge() {
     return age;
 }
 public Employees(String Surname, String Name, String FatherName, String position, String email, String phone, String salary, String Age)
-        {
-            this.Surname = Surname;
-            this.Name = Name;
-            this.FatherName = FatherName;
-            this.position = position;
-            this.email = email;
-            this.phone = phone;
-            this.salary = salary;
-            this.age = age;
+    {
+        this.Surname = Surname;
+        this.Name = Name;
+        this.FatherName = FatherName;
+        this.position = position;
+        this.email = email;
+        this.phone = phone;
+        this.salary = salary;
+        this.age = age;
         }
 public void GetInfo () {
     System.out.println("Surname"+Surname+ "Name"+ Name+"FatherName"+FatherName+"Position"+position+"Email"+email+"Phone"+phone+"Salary"+salary+"Age"+age);
