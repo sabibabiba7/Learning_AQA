@@ -68,34 +68,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Employees.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeesArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Five.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Three.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryAgain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Two.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Lesson__11-maven&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/FOR AQA_1/MODULE_1/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/FOR AQA_1/MODULE_1/src/main/java/com/FOR_AQA_1/Main.java&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Employees.executor": "Run",
+    "Application.EmployeesArray.executor": "Run",
+    "Application.FirstApp.executor": "Run",
+    "Application.Five.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Three.executor": "Run",
+    "Application.TryAgain.executor": "Run",
+    "Application.Two.executor": "Run",
+    "Application.lesson.executor": "Run",
+    "Application.lesson1.executor": "Run",
+    "Application.lesson2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/FOR AQA_1/MODULE_1/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/FOR AQA_1/MODULE_1/src/main/java/com/FOR_AQA_1/Main.java",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Figures" />
