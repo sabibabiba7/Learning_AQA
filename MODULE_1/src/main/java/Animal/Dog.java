@@ -30,7 +30,7 @@ public class Dog extends Animal {
         } else if (distance < 0) {
             System.out.println("Расстояние не может быть меньше нуля");
         } else if (distance == 0) {
-            System.out.println("Собака: '" + getName() + "' не осталась стоять");
+            System.out.println("Собака: '" + getName() + "' осталась стоять на месте ");
         } else {
             System.out.println("Собака: '" + getName() + "' проплыла: " + distance);
         }
